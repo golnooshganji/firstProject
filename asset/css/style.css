@@ -1,0 +1,75 @@
+*{
+    direction: rtl;
+    margin: 10px;
+    padding: 1px;
+}
+@font-face{
+    font-family: siteFont;
+    src: url("../font/Vazir-Light-FD.ttf") format("truetype") , url("../font/Vazir-Light-FD.eot") , url("../font/Vazir-Light-FD.woff");
+
+}
+body , html{
+    box-sizing: border-box;
+    font-family: siteFont;
+    margin: 0%;
+}
+header{
+    background-color: #013f08;
+    
+}
+header h1{
+    color:#ffffff;
+    font-size: 200%;
+}
+header a{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    box-shadow:#000;
+    color: #fff;
+}
+a:active{
+    color: rgb(61, 180, 201);
+}
+footer{
+    background-color: #013f08;
+    height: 50px;
+    
+}
+footer a{
+    color: #fff;
+    font-size:large;
+    vertical-align: middle;
+    width: 50%;
+}
+.container{
+    background-color: #438137;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerLogo{
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+.headerLogo img{
+    width: 25%;
+    height: 25%;
+    color: #fff;
+}
+.headerTitle{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+table{
+    margin: 2%;
+}
